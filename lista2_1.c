@@ -5,7 +5,7 @@ int main()
     maior=0;
     while(numero>=0)
     {
-        printf("Digite um número positivo inteiro:");
+        printf("Digite um número positivo inteiro(digite um negativo para parar):");
         scanf("%d",&numero);
         if(numero>maior)
         maior= numero;

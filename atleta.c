@@ -11,6 +11,6 @@ int main()
     scanf("%d",&seg);
     tm=min/d;
     ts=(60*(min%d)+seg)/d;
-    printf("seu ritimo em em minutos e segundos por quilometro é respectivamente %d;%d",tm,ts);
+    printf("seu ritimo em em minutos e segundos por quilometro é respectivamente %d:%d",tm,ts);
     return 0;
 }

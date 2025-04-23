@@ -12,8 +12,9 @@ int main()
     i=0;
     while(ii<=fi)
     {
-        if(ii%base==0){
-        i=ii+i;
+        if(ii%base==0)
+        {
+            i=ii+i;
         }
         ii=ii+1;
     }

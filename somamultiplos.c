@@ -10,14 +10,13 @@ int main()
     printf("digite o valor final do intervalo: ");
     scanf("%d",&fi);
     i=0;
-    while(ii<fi)
+    while(ii<=fi)
     {
-        i=i+base*ii;
+        if(ii%base==0){
+        i=ii+i;
+        }
         ii=ii+1;
     }
-    i=i+base*fi;
     printf("a soma dos multiplos do número escolhido no intervalo desejado é %d",i);
     return 0;
 }
-
-
